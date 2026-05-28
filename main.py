@@ -54,8 +54,8 @@ for node in root.iter("node"):
         
         rect_center_y = top + (bottom - top) // 2
 
-        pos_y_for_x = top + 20  # Desloca 2 pixels para cima
-        pos_y_for_y = top + size_y[1] + 25  # Desloca para baixo considerando a altura da fonte
+        pos_y_for_x = top + 20
+        pos_y_for_y = top + size_y[1] + 25 
         
         cv2.putText(image, text_x_str, (text_x_pos, pos_y_for_x), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (255, 0, 0), 1)
         cv2.putText(image, text_y_str, (text_y_pos, pos_y_for_y), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (255, 0, 0), 1)
