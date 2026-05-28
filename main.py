@@ -60,4 +60,4 @@ for node in root.iter("node"):
         cv2.putText(image, text_x_str, (text_x_pos, pos_y_for_x), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (255, 0, 0), 1)
         cv2.putText(image, text_y_str, (text_y_pos, pos_y_for_y), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (255, 0, 0), 1)
 
-cv2.imwrite("resultado.png", image)
+cv2.imwrite("result.png", image)
