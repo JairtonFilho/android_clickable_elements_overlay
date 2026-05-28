@@ -1,0 +1,1 @@
+# android_clickable_elements_overlay
