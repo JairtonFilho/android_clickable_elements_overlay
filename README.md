@@ -21,12 +21,16 @@ The image on the left shows the original Android screen, while the image on the 
 <table align="center">
   <tr>
     <td align="center">
-      <b>Original Screenshot</b><br>
+      <b>Original</b><br>
       <img src="assets/screenshot.png" alt="Original Screenshot" width="300">
     </td>
     <td align="center">
-      <b>Clickable Elements Overlay</b><br>
-      <img src="assets/resultado.png" alt="Clickable Elements Overlay" width="300">
+      <b>Clickable Elements</b><br>
+      <img src="assets/without_correction.png" alt="Clickable Elements Overlay" width="300">
+    </td>
+    <td align="center">
+      <b>With correction</b><br>
+      <img src="assets/with_correction.png" alt="Original Screenshot" width="300">
     </td>
   </tr>
 </table>
@@ -111,6 +115,8 @@ XXXXXXXXXX    device
 ---
 
 ## Usage
+
+If you want the original bounds, use "correction_enabled=False" on line 153 of main.py.
 
 With the virtual environment is already activated:
 
